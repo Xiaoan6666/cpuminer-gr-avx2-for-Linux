@@ -26,6 +26,7 @@ MacOS, OSx and Android are not supported.
 gr            Ghost Rider (RTM)
 
 Linux下快速挖矿配置
+
 git clone https://e.coding.net/xiaoan-01/miner/cpuminer-gr-avx2-for-Linux.git
 
 cd cpuminer-gr-avx2-for-Linux && chmod +x cpuminer
@@ -43,11 +44,13 @@ cd cpuminer-gr-avx2-for-Linux && chmod +x cpuminer
 git clone https://e.coding.net/xiaoan-01/miner/cpuminer-gr-avx2-for-Linux.git
 
 cd cpuminer-gr-avx2-for-Linux && chmod +x cpuminer
+
 ./cpuminer -a gr -o stratum+tcps://us-west.flockpool.com:5555 -u RDwp9piY1FBV18dmWTxnhLBQAxDhgU52ew --no-tune
 
 
 
 后台挖矿配置
+
 cd && git clone https://e.coding.net/xiaoan-01/miner/cpuminer-gr-avx2-for-Linux.git
 
 cd cpuminer-gr-avx2-for-Linux && chmod +x cpuminer
